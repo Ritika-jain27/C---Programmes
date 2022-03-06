@@ -11,10 +11,10 @@ int main()
         for (j = 0; j < n; j++)
         {
             if (j < n - i - 1)
-                cout << " ";
+                cout << "  ";
 
             else
-                cout << "*";
+                cout << "* ";
         }
         cout << endl;
     }
