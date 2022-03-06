@@ -4,13 +4,17 @@ using namespace std;
 int main()
 {
     int n, i, j;
-    cout << "Enter Number n";
+    cout << "Enter Number n: ";
     cin >> n;
     for (i = 0; i < n; i++)
     {
-        for (j = 0; j < n - i; j++)
+        for (j = 0; j < n; j++)
         {
-            cout << "*";
+            if (j < n - i - 1)
+                cout << " ";
+
+            else
+                cout << "*";
         }
         cout << endl;
     }
